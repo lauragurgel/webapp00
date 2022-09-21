@@ -15,5 +15,5 @@ st.subheader("Conheça-nos melhor!")
 # Use st.write("") para adicionar um texto ao seu Web app
 st.write("Nós somos uma plataforma que disponibiliza funções para os gestores das empresas distribuírem as tarefas entre os colaboradores de maneira mais assertiva. Já os colaboradores, podem ver se estão sobrecarregados, a partir de uma maneira tecnológica de identificação. Além disso, disponibilizamos acesso de melhoria de qualidade de vida aos colaboradores, podem agendar sessões com terapeutas, psicólogos e selecionar funções para relaxar, como meditações.")
 
-x = st.slider('Select a value')
+x = st.slider('Escolha o seu nível de ansiedade devido ao trabalho')
 st.write(x, 'squared is', x * x)
