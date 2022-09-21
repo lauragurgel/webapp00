@@ -2,19 +2,6 @@
   
 #import the library
 import streamlit as st
-  
-# Use st.title("") para adicionar um TÍTULO ao seu Web app
-st.title("FunControll")
-
-# Use st.header("") para adicionar um CABEÇALHO ao seu Web app
-st.header("Sobre a nossa Plataforma")
-
-# Use st.subheader("") para adicionar um SUB CABEÇALHO ao seu Web app
-st.subheader("Conheça-nos melhor!")
-
-# Use st.write("") para adicionar um texto ao seu Web app
-st.write("Nós somos uma plataforma que disponibiliza funções para os gestores das empresas distribuírem as tarefas entre os colaboradores de maneira mais assertiva. Já os colaboradores, podem ver se estão sobrecarregados, a partir de uma maneira tecnológica de identificação. Além disso, disponibilizamos acesso de melhoria de qualidade de vida aos colaboradores, podem agendar sessões com terapeutas, psicólogos e selecionar funções para relaxar, como meditações.")
-
 import streamlit as st
 import pandas as pd
 import hashlib
@@ -28,6 +15,18 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 from urllib.error import URLError
+  
+# Use st.title("") para adicionar um TÍTULO ao seu Web app
+st.title("FunControll")
+
+# Use st.header("") para adicionar um CABEÇALHO ao seu Web app
+st.header("Sobre a nossa Plataforma")
+
+# Use st.subheader("") para adicionar um SUB CABEÇALHO ao seu Web app
+st.subheader("Conheça-nos melhor!")
+
+# Use st.write("") para adicionar um texto ao seu Web app
+st.write("Nós somos uma plataforma que disponibiliza funções para os gestores das empresas distribuírem as tarefas entre os colaboradores de maneira mais assertiva. Já os colaboradores, podem ver se estão sobrecarregados, a partir de uma maneira tecnológica de identificação. Além disso, disponibilizamos acesso de melhoria de qualidade de vida aos colaboradores, podem agendar sessões com terapeutas, psicólogos e selecionar funções para relaxar, como meditações.")
 
 r = requests.get('https://docs.google.com/spreadsheets/d/e/2PACX-1vTjhdfDYTI3HNP0wpxBAp_YePhfyBj9GlLAmFgW2zUsTQiWJwkY_iUvVuhiT9AD2X81uJQalB89rYlw/pub?gid=2112212887&single=true&output=csv')
 DB = r.content
